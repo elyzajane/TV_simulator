@@ -3,3 +3,6 @@ class TV:
         self.channel = 1
         self.volumeLevel = 1
         self.on = False
+
+    def turnOn(self):
+        self.on = True
