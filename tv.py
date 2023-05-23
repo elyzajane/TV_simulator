@@ -6,3 +6,6 @@ class TV:
 
     def turnOn(self):
         self.on = True
+
+    def turnOff(self):
+        self.on = False
